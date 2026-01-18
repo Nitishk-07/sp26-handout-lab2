@@ -1,6 +1,7 @@
 import pandas as pd
 import sys
 sys.path.append(".")
+import os
 
 """
 Please use the dataset provided in spam.csv.
