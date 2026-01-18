@@ -1,16 +1,17 @@
-import pandas as pd
-import sys
-sys.path.append(".")
-import os
-
 """
 Please use the dataset provided in spam.csv.
-The original dataset is available at https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset
+The original dataset is available at 
+https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset
 Please ignore the rows that do not follow the correct format.
 
 Implement this class to use Pandas to read the data into a dataframe.
 There are comments, but you should replace them with proper documentation.
 """
+
+import sys
+sys.path.append(".")
+import os
+import pandas as pd
 
 class SpamReader:
     def __init__(self, filename: str = 'spam.csv') -> None:
