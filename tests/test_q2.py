@@ -3,4 +3,4 @@
 import sys
 sys.path.append(".")
 import unittest
-from src.q2 import Calculator
+from src.q2 import SpamReader

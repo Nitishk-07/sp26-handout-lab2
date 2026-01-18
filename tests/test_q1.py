@@ -3,4 +3,4 @@
 import sys
 sys.path.append(".")
 import unittest
-from src.q1 import *
+from src.q1 import Calculator
