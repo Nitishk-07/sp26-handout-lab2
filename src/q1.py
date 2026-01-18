@@ -1,5 +1,5 @@
 """
-Please implement the two classes below.
+Please implement the Calculator class below.
 Calculator contains comments describing its methods, but you will need to write the method signatures and documentation.
 All numbers are floats (arguments and returns).
 """
