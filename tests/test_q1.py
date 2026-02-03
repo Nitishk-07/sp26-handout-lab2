@@ -7,22 +7,22 @@ from src.q1 import Calculator
 
 
 class TestCalculator(unittest.TestCase):
-    def setUp(self):
+    def setUp(self) -> None:
         self.calc = Calculator()
 
-    def test_add(self):
+    def test_add(self) -> None:
         self.assertEqual(self.calc.add(2.0, 3.0), 5.0)
         self.assertEqual(self.calc.add(-1.0, 1.0), 0.0)
 
-    def test_subtract(self):
+    def test_subtract(self) -> None:
         self.assertEqual(self.calc.subtract(5.0, 3.0), 2.0)
         self.assertEqual(self.calc.subtract(2.0, 4.0), -2.0)
 
-    def test_multiply(self):
+    def test_multiply(self) -> None:
         self.assertEqual(self.calc.multiply(2.0, 3.0), 6.0)
         self.assertEqual(self.calc.multiply(-1.0, 5.0), -5.0)
 
-    def test_divide(self):
+    def test_divide(self) -> None:
         self.assertEqual(self.calc.divide(6.0, 3.0), 2.0)
         self.assertEqual(self.calc.divide(-4.0, 2.0), -2.0)
         with self.assertRaises(ZeroDivisionError):
